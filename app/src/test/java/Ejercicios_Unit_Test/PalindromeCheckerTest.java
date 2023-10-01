@@ -17,7 +17,8 @@ public class PalindromeCheckerTest {
             "Eva, false",
             "a, true",
             "Aba, true",
-            "abcBA, true"
+            "abcBA, true", 
+            "ab, false"
     })
     public void testIsPalindrome(String word, boolean expectedResult) {
         PalindromeChecker checker = new PalindromeChecker();
