@@ -28,7 +28,9 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.mockito/mockito-junit-jupiter
     testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '4.11.0'
-
+    
+    // mocks static
+    testImplementation 'org.mockito:mockito-inline:5.2.0'
 }
 
 application {
